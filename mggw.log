@@ -9638,3 +9638,291 @@
         [RESULT <pID:280>]: 
         Branch_Demo
          - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\CheckifFileIgnored.bat "myGitlog.log" C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+16:54:23git.exe check-ignore -v "myGitlog.log"  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        .gitignore:2:myGitlog.log	myGitlog.log
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\GetGitRepoPath.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git.exe rev-parse --show-toplevel  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        E:/Magic_XPA/XPA48/Projects/MagicGit
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\CheckifFileIgnored.bat "MagicIDs/branchIDs*.*" C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git.exe check-ignore -v "MagicIDs/branchIDs*.*"  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        .gitignore:1:MagicIDs/branchIDs*.*	MagicIDs/branchIDs*.*
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\whereCmd.bat TortoiseGitProc.exe C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        where TortoiseGitProc.exe  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\GetMergeDriver.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git.exe config --get merge.mgmerge.driver  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        'E:/Magic_XPA/XPA48/Magic Compare 4/merge.exe' %B %A %O %A -merge_changes -captions='Merge_from,Merge_to,Base,Merged'
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\GetUserEmailid.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+16:54:24 
+        [GIT COMMAND <pID:280>]: 
+        git.exe config user.email  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        ravindrachougule66@gmail.com
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\GetGitRepoPath.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git.exe rev-parse --show-toplevel  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        E:/Magic_XPA/XPA48/Projects/MagicGit
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\CheckoutFileWithoutSwitchingBranch.bat magicids "E:/Magic_XPA/XPA48/Projects/MagicGit\MagicIDs\devids.txt" C:\Users\chouguleR\AppData\Local\Temp\ 280
+16:54:25 
+        [GIT COMMAND <pID:280>]: 
+        git.exe checkout magicids -- "E:/Magic_XPA/XPA48/Projects/MagicGit\MagicIDs\devids.txt"  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         Empty result is return by git.
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\GetUsername.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git.exe config user.name  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        ravindrachougule66
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\GetUserEmailid.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git.exe config user.email  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+16:54:26 
+        [RESULT <pID:280>]: 
+        ravindrachougule66@gmail.com
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+        GetDevIdAndBranchIdLocally() : Developer ID returned (0) 
+         
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\RestoreStagedFile.bat "E:/Magic_XPA/XPA48/Projects/MagicGit\MagicIDs\devids.txt" C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git.exe restore --staged "E:/Magic_XPA/XPA48/Projects/MagicGit\MagicIDs\devids.txt"  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         Empty result is return by git.
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+16:54:27[RESULT <pID:280>]: 
+        Branch_Demo
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+        GetDevIdAndBranchIdLocally() : Branch ID returned (1) 
+         
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        Branch_Demo
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+16:54:32 
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+16:54:33 
+        [RESULT <pID:280>]: 
+        Branch_Demo
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+16:54:38 
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        Branch_Demo
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+16:54:43 
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        Branch_Demo
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+16:54:48 
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        Branch_Demo
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+16:54:53 
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        Branch_Demo
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+16:55:01 
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        Branch_Demo
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+         
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\CheckFileModified.bat "E:\Magic_XPA\XPA48\Projects\MagicGit\Source\Prg_2.xml" C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git.exe ls-files -m "E:\Magic_XPA\XPA48\Projects\MagicGit\Source\Prg_2.xml"  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        Source/Prg_2.xml
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+16:55:06 
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        Branch_Demo
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+16:55:09 
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\CheckFileModified.bat "E:\Magic_XPA\XPA48\Projects\MagicGit\Source\Prg_2.xml" C:\Users\chouguleR\AppData\Local\Temp\ 280
+16:55:10 
+        [GIT COMMAND <pID:280>]: 
+        git.exe ls-files -m "E:\Magic_XPA\XPA48\Projects\MagicGit\Source\Prg_2.xml"  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        Source/Prg_2.xml
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+16:55:12 
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        Branch_Demo
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+16:55:17 
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        Branch_Demo
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+16:55:22 
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        Branch_Demo
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+16:55:27 
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+16:55:28Branch_Demo
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+16:55:33 
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        Branch_Demo
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+16:55:39 
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        Branch_Demo
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+16:55:44 
+        [COMMAND <pID:280>]: 
+        E:\Magic_XPA\XPA48\GITScripts\BranchList.bat C:\Users\chouguleR\AppData\Local\Temp\ 280
+         
+        [GIT COMMAND <pID:280>]: 
+        git rev-parse --abbrev-ref HEAD  1>C:\Users\chouguleR\AppData\Local\Temp\\git_answer_280.txt 2>C:\Users\chouguleR\AppData\Local\Temp\\git_error_280.txt
+         
+        [RESULT <pID:280>]: 
+        Branch_Demo
+         - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
