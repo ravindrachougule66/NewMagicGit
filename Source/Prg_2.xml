@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="738424" _time="52824" date="26/09/2022" time="14:40:24"/>
+          <LastModified _date="738424" _time="55567" date="26/09/2022" time="15:26:07"/>
         </Header>
         <ItemIsn val="5"/>
         <Resource>
@@ -42,15 +42,6 @@
               </PropertyList>
             </Column>
             <Column id="2" name="B">
-              <PropertyList model="FIELD">
-                <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="10"/>
-                <StoredAs id="173" val="1"/>
-                <Size id="174" val="10"/>
-                <_Flip id="194"/>
-              </PropertyList>
-            </Column>
-            <Column id="3" name="C">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="10"/>
@@ -163,19 +154,6 @@
                   <Direction val="C"/>
                 </Select>
               </LogicLine>
-              <LogicLine>
-                <Select FieldID="3" FlowIsn="5" id="3">
-                  <Column val="3"/>
-                  <Type val="V"/>
-                  <ExposedToRoute val="N"/>
-                  <IsParameter val="N"/>
-                  <_DitIndexForToolkit val="6"/>
-                  <DIFF_UPDATE val="T"/>
-                  <Condition val="Y"/>
-                  <Modifier val="S"/>
-                  <Direction val="C"/>
-                </Select>
-              </LogicLine>
             </LogicLines>
           </LogicUnit>
         </TaskLogic>
@@ -251,16 +229,14 @@
                 <_Orientation id="143"/>
               </PropertyList>
             </Control>
-            <Control _test_id="9" id="9">
+            <Control PDOD="128" _test_id="9" id="9">
               <PropertyList model="CTRL_GUI0_EDIT">
-                <Model ID="MODEL_GUI_INT" id="1">
-                  <Var FieldID="3"/>
-                </Model>
+                <Model id="1"/>
                 <X id="21" val="18"/>
                 <Y id="22" val="44"/>
                 <Width id="23" val="56"/>
                 <Height id="24" val="10"/>
-                <Data FieldID="3" id="43"/>
+                <Data id="43"/>
                 <ControlName id="46" val="C"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="3"/>
@@ -280,7 +256,6 @@
             </Control>
             <Control PDOD="128" _test_id="10" id="10">
               <PropertyList model="CTRL_GUI0_EDIT">
-                <Model id="1"/>
                 <X id="21" val="18"/>
                 <Y id="22" val="62"/>
                 <Width id="23" val="56"/>
