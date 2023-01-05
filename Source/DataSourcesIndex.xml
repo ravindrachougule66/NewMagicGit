@@ -1,22 +1,20 @@
- <Application>
- 
-<Header>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
 
-  <Version val="14081.00"/>
+  <Header>
+    <Version val="14081.00"/>
+    <WithIsn val="Y"/>
+    <Exe comp="-1"/>
+    <LastIsn val="0"/>
+    <LastIsnFolder val="0"/>
+  </Header>
 
-  <WithIsn val="Y"/>
+  <DataRepositoryProperties/>
 
-  <Exe comp="-1"/>
+  <DataSourceRepository>
+    <DataObjects/>
+  </DataSourceRepository>
 
-  <LastIsn val="0"/>
+  <LastModified val="31006951113887908"/>
 
-  <LastIsnFolder val="0"/>
-
-</Header>
-
-<DataRepositoryProperties/>
- <DataSourceRepository>
-  <DataObjects>
-  </DataObjects>
- </DataSourceRepository>
- <LastModified val="3100695080979673"/>  </Application>
+</Application>
