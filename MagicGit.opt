@@ -18,6 +18,10 @@
       <PrgIsn Val="1"/>
       <TaskIsn Val="1"/>
     </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="2"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
   </VisitedTasks>
 
 </Application>

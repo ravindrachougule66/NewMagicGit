@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="TestGit" ISN_2="1" LastIsn="1" id="2">
+        <Header Description="TestGit1" ISN_2="1" LastIsn="1" id="2">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="738424" _time="60887" date="26/09/2022" time="16:54:47"/>
+          <LastModified _date="738525" _time="43221" date="05/01/2023" time="12:00:21"/>
         </Header>
         <ItemIsn val="8"/>
         <Resource>
@@ -224,7 +224,7 @@
           <FormEntry _last_isn="16" _last_test_id="16" id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="TestGit"/>
+              <FormName id="311" valUnicode="1"/>
             </PropertyList>
             <Control _test_id="12" id="12">
               <PropertyList model="CTRL_GUI0_STATIC">

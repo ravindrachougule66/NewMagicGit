@@ -28,7 +28,7 @@
       <SourceFileTimeStamp _date="738424" _time="29206" date="26/09/2022" time="08:06:46"/>
     </Program>
     <Program>
-      <Header Description="TestGit" ISN_2="1" LastIsn="1" id="2">
+      <Header Description="TestGit1" ISN_2="1" LastIsn="1" id="2">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -42,9 +42,28 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="738424" _time="60887" date="26/09/2022" time="16:54:47"/>
+        <LastModified _date="738525" _time="43221" date="05/01/2023" time="12:00:21"/>
       </Header>
-      <SourceFileTimeStamp _date="738424" _time="41087" date="26/09/2022" time="11:24:47"/>
+      <SourceFileTimeStamp _date="738525" _time="23421" date="05/01/2023" time="06:30:21"/>
+    </Program>
+    <Program>
+      <Header Description="TestGit2" ISN_2="1" LastIsn="1" id="33554436">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="738525" _time="43213" date="05/01/2023" time="12:00:13"/>
+      </Header>
+      <SourceFileTimeStamp _date="738525" _time="23413" date="05/01/2023" time="06:30:13"/>
     </Program>
   </ProgramsRepositoryHeaders>
 
